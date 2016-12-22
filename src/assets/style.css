@@ -1,0 +1,18 @@
+/* TOPBAR */
+.topbar{
+    color: #fff;
+    background-color: #10488f;
+    padding: 16px 0;
+}
+
+.topbar .nextMatch a{
+    margin-left: 10px;
+    color: white;
+    text-decoration: underline;
+}
+/* NAVBAR */
+nav.navbar{
+    border-radius: 0;
+    border: 1px solid lightgray;
+    margin-bottom: 0;
+}

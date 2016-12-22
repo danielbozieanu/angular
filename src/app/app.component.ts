@@ -7,13 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'apps works!';
-  ninja = {
-    name: "Ryu",
-    belt: "Red"
-  };
 
-  suge(e){
-      alert(e.type + ", asa ai supt-o.")
-  }
 
 }

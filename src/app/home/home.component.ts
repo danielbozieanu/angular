@@ -7,13 +7,8 @@ import {Component, OnInit, Input, Output, EventEmitter} from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-    homeTitle = "Welcome to the ninja directory!";
-    @Input() ninja;
-    @Output() onSuge = new EventEmitter();
 
-    fireSugere(e){
-        this.onSuge.emit(e);
-    }
+
 
   constructor() { }
 
